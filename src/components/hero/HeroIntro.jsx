@@ -36,7 +36,7 @@ export const HeroIntro = () => {
   }, []);
 
   return (
-    <div ref={introRef} id="home" className="intro pt-24 md:pt-28">
+    <div ref={introRef} id="home" className="intro">
       {/* Large library & books themed headline */}
       <h2 className="intro__title">The Sanctuary of Knowledge</h2>
       <p className="intro__hint">Scroll to explore the university archives</p>

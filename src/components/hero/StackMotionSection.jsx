@@ -203,7 +203,7 @@ export const StackMotionSection = ({
       {/* Section Title: Layer in front (z-20), travels from LEFT viewport -> CENTER (with cards) -> RIGHT viewport */}
       <h2
         ref={titleRef}
-        className="absolute z-20 flex items-center justify-center text-center font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl uppercase tracking-wider text-white pointer-events-none px-6 max-w-5xl leading-tight drop-shadow-[0_12px_45px_rgba(0,0,0,0.98)] will-change-transform whitespace-normal sm:whitespace-nowrap"
+        className="absolute z-20 flex items-center justify-center text-center font-bold text-2xl sm:text-4xl md:text-6xl lg:text-7xl uppercase tracking-wider text-white pointer-events-none px-4 sm:px-6 max-w-5xl leading-tight drop-shadow-[0_12px_45px_rgba(0,0,0,0.98)] will-change-transform whitespace-normal sm:whitespace-nowrap"
       >
         {title}
       </h2>
